@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black
+}
+
+#wrapper {
+    position: relative;
+}
+
+#ang {
+    display: inline-block;
+    padding: 0px 80px;
+    position: absolute;
+    top: -600px;
+    right: 100px
+
+
+}
+#react {
+    display: inline-block;
+    padding: 0px 50px;
+    position: absolute;
+    top: -650px;
+    left: 130px
+}
+
+#logo {
+    display: inline
+}
+
+
+@media screen and (max-width: 685px) {
+  img {
+            width: 57%;
+         
+    }
+}
